@@ -2,9 +2,9 @@ name:  Build aDockernd Push
 
 on:
   push:
-    branches: [ CLEMENTmasterCLEMENT ]
+    branches: [ master ]
   pull_request:
-    branches: [ CLEMENTmasterCLEMENT ]
+    branches: [  master ]
 
 env:
   REGISTRY: docker.io
